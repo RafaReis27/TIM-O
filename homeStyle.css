@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+nav{
+    background: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    border-bottom: 2 solid hsl(110, 98%, 47%);
+}
+
+.logo{
+    font-size: 20px;
+}
+
+.menu{
+  display: flexbox;
+}
+
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.menu a:hover{
+    color: rgb(0, 255, 242);
+}
+
+.perfil{
+    font-size: 20px;
+}

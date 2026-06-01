@@ -39,3 +39,60 @@ nav{
 .perfil{
     font-size: 20px;
 }
+
+.footer{
+    margin-top: 0;
+}
+
+.footer-container{
+
+    background-color: white;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+
+    padding: 50px 80px;
+
+    flex-wrap: wrap;
+}
+
+.footer-col{
+    display: flex;
+    flex-direction: column;
+
+    gap: 12px;
+}
+
+.footer-col h3{
+    color: #1f1f1f;
+    margin-bottom: 10px;
+}
+
+.footer-col p,
+.footer-col a{
+    color: #555;
+    text-decoration: none;
+}
+
+.footer-col a:hover{
+    color: #6ab04c;
+}
+
+.social{
+    display: flex;
+    gap: 15px;
+
+    font-size: 30px;
+}
+
+.copyright{
+
+    background-color: #6ab04c;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 18px;
+}
